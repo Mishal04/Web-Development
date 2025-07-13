@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<style>
-  img{
-    height: 300px;
-    width: 500px;
-    float: right;
-  }
-  h1{
-    text-align: center;
-  }
-  p{
-    text-align: center;
-    margin-top: 20%;
-  }
-</style>
 <body>
-  <div>
-    <div>
-      <h1 class="h1">Why Choose Us__</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing. <br>
-       Rerum, nesciunt quasi neque aut dolorem vitae eligendi <br> illum facilis alias nemo? Consectetur aliquam quidem eos <br> quas debitis vitae maiores sint obcaecati.</p>
-    </div>
-    <div> 
-      <img src="./Screenshot 2025-02-20 142553.png" alt="">
-    </div>
-  </div>
-  
-  
+    <script>
+        let str = "how are you";
+let result = str.charAt(0).toUpperCase() + str.slice(1);
+console.log(result); // Output: How are you
 
+let name = "HelloWorld";
+// Remove first character
+let Output = str.slice(1);
+console.log(Output); // Output: elloWorld
+
+
+let str3 = "code";
+for (let char of str3) {
+  console.log(char);
+}
+// Output: c o d e (each on new line)
+
+function getLastNChars(str, n) {
+  return str.slice(-n);
+}
+
+console.log(getLastNChars("developer", 4)); // Output: oper
+
+let sentence = "JavaScript is fun to learn";
+let words = sentence.trim().split(" ");
+console.log(words.length); // Output: 5
+    </script>
 </body>
 </html>
